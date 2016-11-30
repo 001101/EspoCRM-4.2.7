@@ -1,0 +1,9 @@
+[
+    {
+        "label":"Overview",
+        "rows":
+        [
+            [{"name":"name", "fullWidth": true}],[{"name":"emailAddress", "fullWidth": true}],[{"name":"phoneNumber", "fullWidth": true}]
+        ]
+    }
+]

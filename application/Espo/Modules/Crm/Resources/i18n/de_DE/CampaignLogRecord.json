@@ -1,0 +1,40 @@
+{
+    "fields": {
+        "action": "Aktion",
+        "actionDate": "Datum",
+        "data": "Daten",
+        "campaign": "Kampagne",
+        "parent": "Ziel",
+        "object": "Objekt",
+        "application": "Applikation",
+        "queueItem": "Warteschlangeneintrag",
+        "stringData": "Zeichenkette",
+        "stringAdditionalData": "Zusätzliche Zeichenkette"
+    },
+    "links": {
+        "queueItem": "Warteschlangeneintrag",
+        "parent": "Bezieht sich auf",
+        "object": "Objekt"
+    },
+    "options": {
+    	"action": {
+            "Sent": "Gesendet",
+            "Opened": "Geöffnet",
+            "Opted Out": "Abgemeldet",
+            "Bounced": "Nicht zustellbar",
+            "Clicked": "Geklickt",
+            "Lead Created": "Interessent erstellt"
+    	}
+    },
+    "labels": {
+        "All": "Alle"
+    },
+    "presetFilters": {
+        "sent": "Gesendet",
+        "opened": "Geöffnet",
+        "optedOut": "Abgemeldet",
+        "bounced": "Nicht zustellbar",
+        "clicked": "Geklickt",
+        "leadCreated": "Interessent erstellt"
+    }
+}

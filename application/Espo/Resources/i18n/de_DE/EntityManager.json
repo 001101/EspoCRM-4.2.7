@@ -1,0 +1,51 @@
+{
+    "labels": {
+        "Fields": "Felder",
+        "Relationships": "Beziehungen"
+    },
+    "fields": {
+        "name": "Name",
+        "type": "Typ",
+        "labelSingular": "Bezeichnung Einzahl",
+        "labelPlural": "Bezeichnung Mehrzahl",
+        "stream": "Vorgänge",
+        "label": "Bezeichnung",
+        "linkType": "Relationstyp",
+        "entityForeign": "Fremdentität\/-modul",
+        "linkForeign": "Fremdrelation\/-modul",
+        "link": "Relation",
+        "labelForeign": "Fremdbezeichnung",
+        "sortBy": "Standardsortierung (Feld)",
+        "sortDirection": "Standardsortierung (Richtung)",
+        "relationName": "Mittlerer Tabellenname",
+        "linkMultipleField": "Mehrere Felder verlinken",
+        "linkMultipleFieldForeign": "Fremdlink mehrere Felder",
+        "disabled": "Inaktiv",
+        "textFilterFields": "Text Filter Felder"
+    },
+    "options": {
+        "type": {
+            "": "Kein(e)",
+            "Base": "Basis",
+            "Person": "Person",
+            "CategoryTree": "Kategoriebaum",
+            "Event": "Ereignis"
+        },
+        "linkType": {
+            "manyToMany": "Viele zu Viele",
+            "oneToMany": "Eins zu Viele",
+            "manyToOne": "Viele zu Eins",
+            "parentToChildren": "Vater zu KInd",
+            "childrenToParent": "Kind zu Vater"
+        },
+        "sortDirection": {
+            "asc": "Aufsteigend",
+            "desc": "Absteigend"
+        }
+    },
+    "messages": {
+        "entityCreated": "Entität wurde erstellt",
+        "linkAlreadyExists": "Namenskonflikt für Relation",
+        "linkConflict": "Eine Relation mit diesem Namen existiert bereits"
+    }
+}

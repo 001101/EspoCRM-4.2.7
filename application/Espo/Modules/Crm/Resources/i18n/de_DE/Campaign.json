@@ -1,0 +1,71 @@
+{
+    "fields": {
+        "name": "Name",
+        "description": "Beschreibung",
+        "status": "Status",
+        "type": "Typ",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum",
+        "targetLists": "Kontaktlisten",
+        "excludingTargetLists": "Kontaktlisten ausschließen",
+        "sentCount": "Gesendet",
+        "openedCount": "Geöffnet",
+        "clickedCount": "Geklickt",
+        "optedOutCount": "Abgemeldet",
+        "bouncedCount": "Nicht zustellbar",
+        "hardBouncedCount": "Hard Bounced",
+        "softBouncedCount": "Soft Bounced",
+        "leadCreatedCount": "Erstellte Interessenten",
+        "revenue": "Umsatz",
+        "revenueConverted": "Umsatz (konvertiert)",
+        "budget": "Budget",
+        "budgetConverted": "Budget (konvertiert)"
+    },
+    "links": {
+        "targetLists": "Kontaktlisten",
+        "excludingTargetLists": "Kontaktlisten ausschließen",
+        "accounts": "Firmen",
+        "contacts": "Kontakte",
+        "leads": "Interessenten",
+        "opportunities": "Verkaufschancen",
+        "campaignLogRecords": "Protokoll",
+        "massEmails": "Details zu Massenmails",
+        "trackingUrls": "Tracking URLs"
+    },
+    "options": {
+        "type": {
+            "Email": "E-Mail",
+            "Web": "Web",
+            "Television": "Fernsehen",
+            "Radio": "Radio",
+            "Newsletter": "Newsletter",
+            "Mail": "Mail"
+        },
+        "status": {
+            "Planning": "Planung",
+            "Active": "Aktiv",
+            "Inactive": "Inaktiv",
+            "Complete": "Fertig"
+        }
+    },
+    "labels": {
+        "Create Campaign": "Neue Kampagne",
+        "Target Lists": "Kontaktlisten",
+        "Statistics": "Statistik",
+        "hard": "hart",
+        "soft": "weich",
+        "Unsubscribe": "Abmelden",
+        "Mass Emails": "Details zu Massenmails",
+        "Email Templates": "E-Mail Vorlagen"
+    },
+    "presetFilters": {
+        "active": "Aktiv"
+    },
+    "messages": {
+        "unsubscribed": "Sie wurden erfolgreich aus unserem Verteiler entfernt"
+    },
+    "tooltips": {
+        "targetLists": "Kontaktlisten, deren Mitglieder diese Aussendung bekommen sollen",
+        "excludingTargetLists": "Kontaktlisten, deren Mitglieder diese Aussendung nicht bekommen sollen"
+    }
+}

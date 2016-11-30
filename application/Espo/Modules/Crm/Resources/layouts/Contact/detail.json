@@ -1,0 +1,86 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "academic_title"
+                },
+                {
+                    "name": "letter_salutation"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "doNotCall"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "title"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Zusatzinfo",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "accounts"
+                },
+                {
+                    "name": "private_address"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

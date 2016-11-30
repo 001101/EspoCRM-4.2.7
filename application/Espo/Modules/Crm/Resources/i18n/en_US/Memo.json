@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "type": "Memo Type",
+        "date": "Memo Date",
+        "attachments": "Attachments",
+		"account": "Account"
+    },
+    "links": {
+        "attachments": "Attachments"
+    },
+
+    "labels": {
+        "create Memo": "Create Memo"
+
+    },
+    "options": {
+        "type": {
+            "Memo": "Memo",
+            "Visit report": "Visit Report",
+            "Email": "Email",
+            "Document": "Document"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "leadSource"
+                }
+            ],
+            [
+                {
+                    "name": "stage"
+                },
+                {
+                    "name": "probability"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "amountWeightedConverted"
+                },
+                {
+                    "name": "closeDate"
+                },
+                {
+                    "name": "campaign"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Zusatzinfo",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "contacts"
+                },
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "label": "Overview",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "parent"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "date"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "attachments",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "title",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true,
+        "align": "left"
+    }
+]

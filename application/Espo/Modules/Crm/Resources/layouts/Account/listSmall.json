@@ -1,0 +1,23 @@
+[
+    {
+        "name": "name",
+        "width": 25,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "type",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "website",
+        "width": 25,
+        "align": "left"
+    }
+]

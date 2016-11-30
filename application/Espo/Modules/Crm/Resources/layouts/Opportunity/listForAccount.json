@@ -1,0 +1,38 @@
+[
+    {
+        "name": "name",
+        "width": 15,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "stage",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "probability",
+        "width": 5,
+        "align": "left"
+    },
+    {
+        "name": "amount",
+        "width": 10,
+        "align": "right"
+    },
+    {
+        "name": "amountWeightedConverted",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "closeDate",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "width": 10,
+        "align": "left"
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "fields": {},
+    "links": {
+        "users": "Benutzer"
+    },
+    "tooltips": {},
+    "labels": {
+        "Access": "Zugang",
+        "Create PortalRole": "Portal Rolle erstellen",
+        "Scope Level": "Modulebene",
+        "Field Level": "Feldebene"
+    }
+}

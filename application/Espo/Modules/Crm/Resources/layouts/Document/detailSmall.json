@@ -1,0 +1,74 @@
+[
+    {
+        "label": "Basisinfo",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "folder"
+                }
+            ],
+            [
+                {
+                    "name": "file"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "type"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Zusatzinfo",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "publishDate"
+                },
+                {
+                    "name": "expirationDate"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

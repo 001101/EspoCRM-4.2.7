@@ -1,0 +1,32 @@
+[
+    {
+        "label":"Overview",
+        "rows": [
+            [
+                {"name": "name"}
+            ],
+            [
+                {"name": "parent"}
+            ],
+            [
+                {"name": "action"}
+            ],
+            [
+                {"name": "emailFolder"}
+            ],
+            [
+                {"name": "from"}
+            ],
+            [
+                {"name": "to"}
+            ],
+            [
+                {"name": "subject"}
+            ],
+            [
+                {"name": "bodyContains"}
+            ]
+        ]
+    }
+
+]

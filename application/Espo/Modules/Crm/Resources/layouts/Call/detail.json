@@ -1,0 +1,75 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "parent"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "dateStart"
+                },
+                {
+                    "name": "duration"
+                },
+                {
+                    "name": "direction"
+                }
+            ],
+            [
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "reminders"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

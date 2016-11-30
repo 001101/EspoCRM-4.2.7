@@ -1,0 +1,13 @@
+[
+    {
+        "label":"Overview",
+        "rows": [
+            [
+                {"name": "entityType"}
+            ],
+            [
+                {"name": "file"}
+            ]
+        ]
+    }
+]

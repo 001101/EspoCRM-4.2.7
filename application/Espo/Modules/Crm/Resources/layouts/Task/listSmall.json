@@ -1,0 +1,38 @@
+[
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "parent",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "priority",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "dateEnd",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "width": 10,
+        "align": "left"
+    }
+]

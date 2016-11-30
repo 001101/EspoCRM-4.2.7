@@ -1,0 +1,15 @@
+[
+    "account",
+    "address",
+    "assignedUser",
+    "createdAt",
+    "emailAddress",
+    "phoneNumber",
+    "title",
+    "teams",
+    "targetLists",
+    "campaign",
+    "doNotCall",
+    "accountType",
+    "academic_title"
+]

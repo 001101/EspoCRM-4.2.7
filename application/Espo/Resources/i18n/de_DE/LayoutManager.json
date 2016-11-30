@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "width": "Breite (%)",
+        "link": "Link",
+        "notSortable": "Nicht sortierbar",
+        "align": "Ausrichten",
+	"scrollTable":"Breite Liste"
+    },
+    "options": {
+        "align": {
+            "left": "Links",
+            "right": "Rechts"
+        }
+    }
+}

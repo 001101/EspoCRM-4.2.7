@@ -1,0 +1,34 @@
+[
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "academic_title",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "accountRole",
+        "width": 15,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "doNotCall",
+        "width": 10,
+        "align": "left"
+    }
+]

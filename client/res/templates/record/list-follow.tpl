@@ -1,0 +1,1 @@
+<a href="" class="followstar" data-id="{{model.id}}"><span class="star {{#ifHasAttr model 'isFollowed'}}{{#ifAttrEquals model 'isFollowed' true}}filled{{/ifAttrEquals}}{{/ifHasAttr}}" aria-hidden="true"></span></a>

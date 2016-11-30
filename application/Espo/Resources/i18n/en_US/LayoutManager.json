@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "width": "Width (%)",
+        "link": "Link",
+        "notSortable": "Not Sortable",
+        "align": "Align",
+        "scrollTable":"Scroll table"
+    },
+    "options": {
+        "align": {
+            "left": "Left",
+            "right": "Right"
+        }
+    }
+}

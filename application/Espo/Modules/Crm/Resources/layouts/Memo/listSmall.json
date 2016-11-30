@@ -1,0 +1,33 @@
+[
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "parent",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "type",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "date",
+        "width": 15,
+        "align": "left"
+    },
+    {
+        "name": "createdAt",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "width": 15,
+        "align": "left"
+    }
+]

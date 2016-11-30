@@ -1,0 +1,64 @@
+[
+    {
+        "label": "Overview",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "academic_title"
+                }
+            ],
+            [
+                {
+                    "name": "accountName"
+                },
+                {
+                    "name": "title"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "letter_salutation"
+                }
+            ],
+            [
+                {
+                    "name": "status"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "source"
+                }
+            ],
+            [
+                {
+                    "name": "assignedUser"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

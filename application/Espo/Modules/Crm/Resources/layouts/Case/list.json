@@ -1,0 +1,38 @@
+[
+    {
+        "name": "number",
+        "width": 5,
+        "align": "right"
+    },
+    {
+        "name": "name",
+        "width": 30,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "status",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "priority",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "contact",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "assignedUser",
+        "width": 15,
+        "align": "left"
+    }
+]

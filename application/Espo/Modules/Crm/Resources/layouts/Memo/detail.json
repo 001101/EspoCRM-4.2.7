@@ -1,0 +1,68 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "date"
+                }
+               
+            ],
+            [
+                {
+                    "name": "parent"
+                },
+                {
+                    "name": "account"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                {
+                    "name": "attachments",
+                    "fullWidth": true
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

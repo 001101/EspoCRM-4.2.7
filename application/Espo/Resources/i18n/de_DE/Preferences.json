@@ -1,0 +1,52 @@
+{
+    "fields": {
+        "dateFormat": "Datumsformat",
+        "timeFormat": "Zeitformat",
+        "timeZone": "Zeitzone",
+        "weekStart": "Erster Tag der Woche",
+        "thousandSeparator": "Tausender Trennzeichen",
+        "decimalMark": "Dezimaltrennzeichen",
+        "defaultCurrency": "Standardwährung",
+        "currencyList": "Währungsliste",
+        "language": "Sprache",
+        "smtpServer": "Server",
+        "smtpPort": "Port",
+        "smtpAuth": "Autorisierung",
+        "smtpSecurity": "Sicherheit",
+        "smtpUsername": "Benutzername",
+        "emailAddress": "E-Mail",
+        "smtpPassword": "Passwort",
+        "smtpEmailAddress": "E-Mail Adresse",
+        "exportDelimiter": "Export Trennzeichen",
+        "receiveAssignmentEmailNotifications": "E-Mail Benachrichtigung bei Zuweisung",
+        "receiveMentionEmailNotifications": "E-Mail Benachrichtigung bei Erwähnung in Postings",
+        "receiveStreamEmailNotifications": "E-Mail Benachrichtigung über Postings und Status Aktualisierungen",
+        "autoFollowEntityTypeList": "Autom. Beobachten",
+        "signature": "E-Mail Signatur",
+        "dashboardTabList": "Reiter Liste",
+        "defaultReminders": "Standarderinnerungen",
+        "theme": "Design",
+        "useCustomTabList": "Benutzerdefinierte Reiter Liste",
+        "tabList": "Reiter Liste",
+        "emailReplyToAllByDefault": "Allen antworten als Standard",
+        "dashboardLayout": "Layout Übersicht",
+        "emailReplyForceHtml": "E-Mail Antwort als HTML"
+    },
+    "links": {},
+    "options": {
+        "weekStart": {
+            "0": "Sonntag",
+            "1": "Montag"
+        }
+    },
+    "labels": {
+        "Notifications": "Benachrichtigungen",
+        "User Interface": "Benutzeroberfläche",
+        "SMTP": "SMTP",
+        "Misc": "Verschiedenes",
+        "Locale": "Lokale Einstellungen"
+    },
+    "tooltips": {
+        "autoFollowEntityTypeList": "Der Benutzer beobachtet alle neuen Einträge der gewählten Entität, sieht Neuigkeiten in den Vorgängen und erhält Benachrichtigungen."
+    }
+}

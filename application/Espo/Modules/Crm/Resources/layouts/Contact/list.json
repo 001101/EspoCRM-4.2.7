@@ -1,0 +1,35 @@
+[
+    {
+        "name": "salutationName",
+        "width": 10,
+        "align": "left"
+    },
+    {
+        "name": "name",
+        "width": 20,
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "account",
+        "width": 20,
+        "align": "left"
+    },
+    {
+        "name": "phoneNumber",
+        "width": 15,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "emailAddress",
+        "width": 20,
+        "notSortable": true,
+        "align": "left"
+    },
+    {
+        "name": "academic_title",
+        "width": 15,
+        "align": "left"
+    }
+]

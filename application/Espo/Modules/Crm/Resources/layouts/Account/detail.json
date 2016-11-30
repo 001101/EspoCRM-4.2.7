@@ -1,0 +1,83 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                },
+                {
+                    "name": "vat_number"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Zusatzinfo",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "type": "Memotyp",
+        "date": "Memodatum",
+        "attachments": "Anhänge",
+		"account": "Firma"
+    },
+    "links": {
+        "attachments": "Anhänge"
+    },
+
+    "labels": {
+        "create Memo": "Memo erstellen"
+
+    },
+    "options": {
+        "type": {
+            "Memo": "Memo",
+            "Visit report": "Besuchsbericht",
+            "Email": "E-Mail",
+            "Document": "Dokument"
+        }
+    }
+}

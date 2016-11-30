@@ -1,0 +1,88 @@
+[
+    {
+        "label": "Basisdaten",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "number"
+                },
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "priority"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "label": "Zusatzinfo",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "contacts"
+                },
+                {
+                    "name": "type"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "inboundEmail"
+                },
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "label": "System",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "createdBy"
+                },
+                {
+                    "name": "createdAt"
+                },
+                {
+                    "name": "assignedUser"
+                }
+            ],
+            [
+                {
+                    "name": "modifiedBy"
+                },
+                {
+                    "name": "modifiedAt"
+                },
+                {
+                    "name": "teams"
+                }
+            ]
+        ]
+    }
+]

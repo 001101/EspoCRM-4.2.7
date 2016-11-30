@@ -1,0 +1,51 @@
+[
+    {
+        "label": "Überblick",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "type"
+                },
+                {
+                    "name": "website"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "industry"
+                }
+            ],
+            [
+                {
+                    "name": "billingAddress"
+                },
+                {
+                    "name": "shippingAddress"
+                },
+                {
+                    "name": "vat_number"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                },
+                false,
+                {
+                    "name": "assignedUser"
+                }
+            ]
+        ]
+    }
+]

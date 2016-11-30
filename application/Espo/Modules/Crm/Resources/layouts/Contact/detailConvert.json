@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Overview",
+        "alwaysVisible": false,
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "academic_title"
+                },
+                {
+                    "name": "letter_salutation"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "doNotCall"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                },
+                {
+                    "name": "account"
+                },
+                {
+                    "name": "title"
+                }
+            ],
+            [
+                {
+                    "name": "assignedUser"
+                },
+                {
+                    "name": "teams"
+                },
+                false
+            ]
+        ]
+    }
+]

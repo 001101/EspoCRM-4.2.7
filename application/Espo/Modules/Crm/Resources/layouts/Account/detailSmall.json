@@ -1,0 +1,38 @@
+[
+    {
+        "label": "Overview",
+        "alwaysVisible": true,
+        "rows": [
+            [
+                {
+                    "name": "name",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "website"
+                },
+                {
+                    "name": "phoneNumber"
+                }
+            ],
+            [
+                {
+                    "name": "emailAddress"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "industry"
+                },
+                {
+                    "name": "vat_number"
+                }
+            ]
+        ]
+    }
+]

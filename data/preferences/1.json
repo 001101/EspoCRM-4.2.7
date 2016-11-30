@@ -1,0 +1,52 @@
+{
+    "id": "1",
+    "timeZone": "Europe\/Berlin",
+    "dateFormat": "DD.MM.YYYY",
+    "timeFormat": "HH:mm",
+    "weekStart": 1,
+    "defaultCurrency": "EUR",
+    "thousandSeparator": ".",
+    "decimalMark": ",",
+    "dashboardLayout": [
+        {
+            "name": "My Plus",
+            "layout": [
+                {
+                    "id": "default-tasks",
+                    "name": "Tasks",
+                    "x": 2,
+                    "y": 0,
+                    "width": 2,
+                    "height": 2
+                },
+                {
+                    "id": "default-activities",
+                    "name": "Activities",
+                    "x": 2,
+                    "y": 2,
+                    "width": 2,
+                    "height": 2
+                },
+                {
+                    "id": "d856851",
+                    "name": "OpportunitiesByStage",
+                    "x": 0,
+                    "y": 0,
+                    "width": 2,
+                    "height": 2
+                }
+            ]
+        }
+    ],
+    "dashletsOptions": {},
+    "smtpPort": 25,
+    "smtpAuth": false,
+    "language": "en_US",
+    "exportDelimiter": ";",
+    "receiveAssignmentEmailNotifications": true,
+    "receiveMentionEmailNotifications": true,
+    "receiveStreamEmailNotifications": true,
+    "useCustomTabList": false,
+    "emailReplyToAllByDefault": true,
+    "emailReplyForceHtml": false
+}

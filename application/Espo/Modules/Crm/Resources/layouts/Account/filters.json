@@ -1,0 +1,17 @@
+[
+    "name",
+    "industry",
+    "billingAddressPostalCode",
+    "type",
+    "billingAddressCity",
+    "billingAddressCountry",
+    "createdAt",
+    "modifiedAt",
+    "emailAddress",
+    "description",
+    "createdBy",
+    "modifiedBy",
+    "targetLists",
+    "teams",
+    "assignedUser"
+]
