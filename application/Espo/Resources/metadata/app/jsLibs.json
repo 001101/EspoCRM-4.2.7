@@ -33,5 +33,15 @@
         "path": "client/lib/gridstack.min.js",
         "exportsTo": "$",
         "exportsAs": "gridstack"
+    },
+    "d3": {
+        "path": "client/lib/d3.js",
+        "exportsTo": "window",
+        "exportsAs": "d3"
+    },
+    "nv": {
+        "path": "client/lib/nv.d3.js",
+        "exportsTo": "window",
+        "exportsAs": "nv"
     }
 }

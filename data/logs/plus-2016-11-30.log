@@ -1,0 +1,2 @@
+[2016-11-30 09:56:53] Espo.WARNING: E_WARNING: Invalid argument supplied for foreach() {"code":2,"message":"Invalid argument supplied for foreach()","file":"E:\\xampp\\htdocs\\EspoCRM-4.2.7\\application\\Espo\\Core\\Application.php","line":289} []
+[2016-11-30 11:09:33] Espo.WARNING: E_WARNING: Invalid argument supplied for foreach() {"code":2,"message":"Invalid argument supplied for foreach()","file":"E:\\xampp\\htdocs\\EspoCRM-4.2.7\\application\\Espo\\Core\\Application.php","line":289} []

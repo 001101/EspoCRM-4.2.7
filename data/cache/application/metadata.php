@@ -596,6 +596,18 @@ return array (
         'exportsTo' => '$',
         'exportsAs' => 'gridstack',
       ),
+      'd3' => 
+      array (
+        'path' => 'client/lib/d3.js',
+        'exportsTo' => 'window',
+        'exportsAs' => 'd3',
+      ),
+      'nv' => 
+      array (
+        'path' => 'client/lib/nv.d3.js',
+        'exportsTo' => 'window',
+        'exportsAs' => 'nv',
+      ),
       'full-calendar' => 
       array (
         'path' => 'client/modules/crm/lib/fullcalendar.min.js',
