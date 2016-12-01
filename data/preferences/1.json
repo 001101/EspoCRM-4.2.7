@@ -20,7 +20,15 @@
                     "height": 3
                 },
                 {
-                    "id": "d985627",
+                    "id": "d318248",
+                    "name": "Opportunities",
+                    "x": 2,
+                    "y": 2,
+                    "width": 2,
+                    "height": 2
+                },
+                {
+                    "id": "d438057",
                     "name": "OpportunitiesByLeadSource",
                     "x": 2,
                     "y": 0,
@@ -30,13 +38,7 @@
             ]
         }
     ],
-    "dashletsOptions": {
-        "d985627": {
-            "title": "Opportunities by Lead Source",
-            "dateFrom": "2016-01-01",
-            "dateTo": "2016-12-31"
-        }
-    },
+    "dashletsOptions": {},
     "smtpPort": 25,
     "smtpAuth": false,
     "language": "en_US",

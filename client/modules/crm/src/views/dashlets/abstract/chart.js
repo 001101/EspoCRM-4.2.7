@@ -57,7 +57,7 @@ Espo.define('crm:views/dashlets/abstract/chart', ['views/dashlets/abstract/base'
             Dep.prototype.init.call(this);            
             
            
-            this.d3 = d3;
+            //this.d3 = d3;
             
             this.flotr = Flotr;
 
