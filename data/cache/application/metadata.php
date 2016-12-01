@@ -608,6 +608,18 @@ return array (
         'exportsTo' => 'window',
         'exportsAs' => 'nv',
       ),
+      'bch' => 
+      array (
+        'path' => 'client/lib/Chart.bundle.js',
+        'exportsTo' => 'window',
+        'exportsAs' => 'bch',
+      ),
+      'zingchart' => 
+      array (
+        'path' => 'client/lib/zingchart.min.js',
+        'exportsTo' => 'window',
+        'exportsAs' => 'zingchart',
+      ),
       'full-calendar' => 
       array (
         'path' => 'client/modules/crm/lib/fullcalendar.min.js',

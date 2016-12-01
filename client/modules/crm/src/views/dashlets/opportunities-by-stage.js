@@ -87,32 +87,9 @@ Espo.define('crm:views/dashlets/opportunities-by-stage', 'crm:views/dashlets/abs
 
         drow: function () {
 
-            console.log(this.nv);
-            console.log(this);
+            //console.log(this.chartData);
             
             var self = this;
-
-            this.nv.addGraph( function() {
-                var chart = this.nv.models.pieChart()
-                .x(function(d) { return d.label })
-                .y(function(d) { return d.value })
-                .showLabels(true)     //Display pie labels
-                .labelThreshold(.05)  //Configure the minimum slice size for labels to show up
-                .labelType("percent") //Configure what type of data to show in the label. Can be "key", "value" or "percent"
-                .donut(true)          //Turn on Donut mode. Makes pie chart look tasty!
-                .donutRatio(0.35)     //Configure how big you want the donut hole size to be.
-                ;
-
-                this.d3.select(".chart-container svg")
-                .datum(this.chartData)
-                .transition().duration(350)
-                .call(chart);
-
-                return chart;
-                }
-
-            );
-            /*
             this.flotr.draw(this.$container.get(0), this.chartData, {
                 colors: this.colors,
                 shadowSize: false,
@@ -125,6 +102,7 @@ Espo.define('crm:views/dashlets/opportunities-by-stage', 'crm:views/dashlets/abs
                     barWidth: 0.5,
                 },
                 grid: {
+                    backgroundColor: this.backgroundColor,
                     horizontalLines: false,
                     outline: 'sw',
                     color: this.outlineColor
@@ -157,8 +135,33 @@ Espo.define('crm:views/dashlets/opportunities-by-stage', 'crm:views/dashlets/abs
                     labelBoxMargin: 0
                 },
             });
+            /*
+            
+            
+            this.nv.addGraph( function() {
+                var chart = this.nv.models.lineChart()
+                .x(function(d) { return d.label })
+                .y(function(d) { return d.value })
+                .showLabels(true)     //Display pie labels
+                .labelThreshold(.05)  //Configure the minimum slice size for labels to show up
+                .labelType("percent") //Configure what type of data to show in the label. Can be "key", "value" or "percent"
+                .donut(true)          //Turn on Donut mode. Makes pie chart look tasty!
+                .donutRatio(0.35)     //Configure how big you want the donut hole size to be.
+                ;
+
+                this.d3.select(".chart-container svg")
+                .datum(this.chartData)
+                .transition().duration(350)
+                .call(chart);
+
+                return chart;
+                }
+
+            );
+            
+            
             */
-        }, // end draw
+        }, // end drow
 
     });
 });

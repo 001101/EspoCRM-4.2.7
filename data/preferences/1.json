@@ -12,25 +12,17 @@
             "name": "My Plus",
             "layout": [
                 {
-                    "id": "default-tasks",
-                    "name": "Tasks",
-                    "x": 2,
-                    "y": 0,
-                    "width": 2,
-                    "height": 2
-                },
-                {
-                    "id": "default-activities",
-                    "name": "Activities",
-                    "x": 2,
-                    "y": 2,
-                    "width": 2,
-                    "height": 2
-                },
-                {
                     "id": "d856851",
                     "name": "OpportunitiesByStage",
                     "x": 0,
+                    "y": 0,
+                    "width": 2,
+                    "height": 3
+                },
+                {
+                    "id": "d985627",
+                    "name": "OpportunitiesByLeadSource",
+                    "x": 2,
                     "y": 0,
                     "width": 2,
                     "height": 2
@@ -38,7 +30,13 @@
             ]
         }
     ],
-    "dashletsOptions": {},
+    "dashletsOptions": {
+        "d985627": {
+            "title": "Opportunities by Lead Source",
+            "dateFrom": "2016-01-01",
+            "dateTo": "2016-12-31"
+        }
+    },
     "smtpPort": 25,
     "smtpAuth": false,
     "language": "en_US",

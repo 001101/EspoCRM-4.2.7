@@ -35,11 +35,11 @@
  * these Appropriate Legal Notices must retain the display of the "EspoCRM" word.
  ************************************************************************/
 
-Espo.define('crm:views/dashlets/abstract/chart', ['views/dashlets/abstract/base','lib!d3', 'lib!nv'], function (Dep, d3, nv) {
+Espo.define('crm:views/dashlets/abstract/chart', ['views/dashlets/abstract/base','lib!d3', 'lib!Flotr', 'lib!nv'], function (Dep, d3, Flotr, nv) {
 
     return Dep.extend({
 
-        _template: '<div class="chart-container"><svg></svg></div><div class="legend-container"></div>',
+        _template: '<div class="chart-container" id="myChart"></div><div class="legend-container"></div>',
 
         decimalMark: '.',
 
@@ -51,12 +51,15 @@ Espo.define('crm:views/dashlets/abstract/chart', ['views/dashlets/abstract/base'
 
         outlineColor: '#333',
 
+        backgroundColor: '#404040',
+
         init: function () {
-            Dep.prototype.init.call(this);
-            console.log(d3);
-            console.log(nv);
+            Dep.prototype.init.call(this);            
+            
+           
             this.d3 = d3;
-            this.nv = nv;
+            
+            this.flotr = Flotr;
 
             if (this.getPreferences().has('decimalMark')) {
                 this.decimalMark = this.getPreferences().get('decimalMark')

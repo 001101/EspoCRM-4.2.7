@@ -74,7 +74,7 @@ Espo.define('crm:views/dashlets/opportunities-by-lead-source', 'crm:views/dashle
                 shadowSize: false,
                 pie: {
                     show: true,
-                    explode: 0,
+                    explode: 15,
                     lineWidth: 1,
                     fillOpacity: 1,
                     sizeRatio: 0.8,

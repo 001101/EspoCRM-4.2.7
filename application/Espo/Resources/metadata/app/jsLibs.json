@@ -43,5 +43,15 @@
         "path": "client/lib/nv.d3.js",
         "exportsTo": "window",
         "exportsAs": "nv"
+    },
+    "bch": {
+        "path": "client/lib/Chart.bundle.js",
+        "exportsTo": "window",
+        "exportsAs": "bch"
+    },
+    "zingchart": {
+        "path": "client/lib/zingchart.min.js",
+        "exportsTo": "window",
+        "exportsAs": "zingchart"
     }
 }
